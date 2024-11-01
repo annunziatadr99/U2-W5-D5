@@ -3,25 +3,108 @@
 }
 .contenitore {
   display: flex;
-  padding-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 20px;
   justify-content: space-between;
+  background-color: #ffc017;
+  border-bottom: 1.7px solid black;
 }
-.contenitore ul {
-  display: flex;
-}
+
 .contenitore img {
-  margin-left: 55px;
+  margin-left: 8rem;
 }
-.contenitore ul li a {
+.lista button a {
   text-decoration: none;
   color: black;
 }
-.contenitore ul {
-  list-style: none;
+.lista button {
+  background-color: transparent;
+  border: none;
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
+  margin-top: 8px;
 }
 .lista {
   display: flex;
-  margin-right: 70px;
+  gap: 1.8rem;
+  justify-content: space-evenly;
+  margin-right: 8rem;
+  align-items: center;
+}
+.lista button:last-of-type a {
+  background-color: black;
+  color: aliceblue;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 2rem;
+}
+.container1 {
+  display: flex;
+  background-color: #ffc017;
+  position: relative;
+  border-bottom: 1.7px solid black;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8rem;
+  padding-top: 7rem;
+}
+.container1 img {
+  width: 35%;
+  position: absolute;
+  right: 0;
+}
+.text h1 {
+  font-size: 7.3rem;
+}
+.text p {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.text button {
+  background-color: black;
+  color: aliceblue;
+  border: none;
+  padding: 0.5rem 3.2rem 0.5rem 3.2rem;
+  border-radius: 2rem;
+  font-size: 1.3rem;
+  margin-top: 3.3rem;
+  margin-bottom: 8rem;
+}
+h2 {
+  margin-left: 8rem;
+  margin-top: 2.3rem;
+  margin-bottom: 1rem;
+}
+.trending {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 8.3rem;
+  margin-right: 8.3rem;
+  margin-bottom: 3rem;
+}
+.trending2 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 8.3rem;
+  margin-right: 8.3rem;
+  margin-bottom: 2rem;
+}
+.box {
+  display: flex;
+  width: 20%;
+}
+.numero {
+  padding-right: 1rem;
+  font-size: 23px;
+}
+.utente h3 {
+  font-size: 12px;
+  padding-bottom: 0.5rem;
+}
+.utente p:first-of-type {
+  font-size: 15px;
+}
+.container2 {
+  border-bottom: 1.4px solid rgba(201, 196, 196, 0.375);
 }
