@@ -128,7 +128,7 @@ h2 img {
 }
 
 .utente h3 {
-  font-size: 12px;
+  font-size: 13px;
   padding-bottom: 0.5rem;
   display: flex;
   align-items: center;
@@ -136,7 +136,7 @@ h2 img {
 }
 
 .utente h4 {
-  font-size: 10px;
+  font-size: 14px;
   margin-top: 0.3rem;
 }
 .utente p:last-of-type {
@@ -191,13 +191,19 @@ h2 img {
   padding-bottom: 0.5rem;
   gap: 0.4rem;
 }
+.testoN > h4 {
+  padding-bottom: 0.5rem;
+}
 .testoN p:first-of-type {
   font-size: 13px;
-  color: rgba(145, 140, 140, 0.805);
+  color: rgb(142, 139, 139);
 }
 .testoN p:last-of-type {
   font-size: 10px;
-  color: rgba(145, 140, 140, 0.805);
+  color: rgb(142, 139, 139);
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
 }
 .testoN > h3 > img {
   width: 17px;
@@ -205,6 +211,45 @@ h2 img {
 }
 .imgRight {
   display: flex;
-  margin-right: 143px;
-  width: 20%;
+  margin-right: 300px;
+  width: 18%;
+}
+.testoN p:last-of-type span {
+  background-color: rgba(239, 239, 239, 0.805);
+  color: rgb(142, 139, 139);
+  padding: 5px;
+  border-radius: 35px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 18%;
+  margin-left: 8rem;
+}
+footer h4 {
+  font-size: 13px;
+  font-weight: 500;
+}
+.buttonA button {
+  background-color: transparent;
+  color: rgb(142, 139, 139);
+  border-radius: 5%;
+  border: 1px solid rgba(201, 196, 196, 0.375);
+  font-size: 12px;
+  padding: 7px;
+  margin: 4px;
+}
+.buttonA {
+  padding-top: 0.7rem;
+  border-bottom: 1.4px solid rgba(201, 196, 196, 0.375);
+  padding-bottom: 1.7rem;
+}
+.buttonB {
+  margin-top: 1.7rem;
+}
+.buttonB button {
+  background-color: transparent;
+  border: none;
+  margin: 3px;
+  color: rgb(142, 139, 139);
 }
