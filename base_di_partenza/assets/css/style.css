@@ -24,10 +24,13 @@ h4 {
   justify-content: space-between;
   background-color: #ffc017;
   border-bottom: 1.7px solid black;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .contenitore img {
-  margin-left: 8rem;
+  margin-left: 11rem;
 }
 .lista button a {
   text-decoration: none;
@@ -44,7 +47,7 @@ h4 {
   display: flex;
   gap: 1.8rem;
   justify-content: space-evenly;
-  margin-right: 8rem;
+  margin-right: 11rem;
   align-items: center;
 }
 .lista button:last-of-type a {
@@ -62,7 +65,7 @@ h4 {
 .text {
   display: flex;
   flex-direction: column;
-  margin-left: 8rem;
+  margin-left: 11rem;
   padding-top: 7rem;
 }
 .container1 img {
@@ -204,6 +207,7 @@ h2 img {
   display: flex;
   align-items: center;
   margin-top: 8px;
+  align-self: (3) flex-end;
 }
 .testoN > h3 > img {
   width: 17px;
@@ -219,16 +223,29 @@ h2 img {
   color: rgb(142, 139, 139);
   padding: 5px;
   border-radius: 35px;
+  margin-left: 0.7rem;
+  margin-right: 0.7rem;
+}
+
+.book {
+  position: absolute;
+  width: 1.6rem;
+  left: 30%;
 }
 footer {
   display: flex;
   flex-direction: column;
   width: 18%;
-  margin-left: 8rem;
+  margin-left: 17.8rem;
+  position: sticky;
+  top: 78px;
+  z-index: 1;
+  height: 100%;
 }
 footer h4 {
   font-size: 13px;
   font-weight: 500;
+  margin-top: 3rem;
 }
 .buttonA button {
   background-color: transparent;
@@ -252,4 +269,7 @@ footer h4 {
   border: none;
   margin: 3px;
   color: rgb(142, 139, 139);
+}
+main {
+  display: flex;
 }
